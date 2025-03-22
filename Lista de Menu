@@ -1,0 +1,17 @@
+print("----MENU----")
+print("1. Água")
+print("2. Refrigerante")
+print("3. Suco")
+
+print("")
+
+bebida = int(input("Selecione a bebida"))
+
+if bebida ==1:
+  print("Água")
+elif bebida==2:
+  print(" Refrigerante")
+elif bebida ==3:
+  print("Suco")
+else:
+  print("A bebida não existe")
