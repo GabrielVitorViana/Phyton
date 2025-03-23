@@ -1,0 +1,14 @@
+temperatura = float(input("Digite a temperatura da água em graus Celsius:"))
+
+if temperatura <0:
+  estado = "Sólido"
+elif temperatura ==0:
+  estado = "Ponto de fusão"
+elif 0 < temperatura < 100:
+  estado = "Líquido"
+elif temperatura ==100:
+  estado = "Ponto de ebulição"
+else:  # temperatura > 100
+  estado = "Gasoso"
+  
+print (f"A água está em estado:{estado}")
