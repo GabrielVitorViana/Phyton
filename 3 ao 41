@@ -1,0 +1,9 @@
+contador = 3
+i=1
+
+while(contador <= 42):
+  print(contador ,i)
+  contador = contador + 2
+  i = i + 1
+  
+print("Fim do programa")
